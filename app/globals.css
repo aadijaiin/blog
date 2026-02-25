@@ -38,6 +38,28 @@
       border border-slate-100 dark:border-slate-700/50
       mb-8;
   }
+
+  .premium-btn {
+    @apply relative overflow-hidden transition-all duration-300 active:scale-95 hover:shadow-xl hover:-translate-y-0.5 cursor-pointer;
+  }
+
+  .dot-grid {
+    background-image: radial-gradient(circle, #4F70F0 1px, transparent 1px);
+    background-size: 24px 24px;
+    opacity: 0.08;
+  }
+
+  .nav-link {
+    @apply relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all hover:after:w-full;
+  }
+
+  .code-block {
+    @apply bg-slate-900 rounded-2xl p-6 font-mono text-sm text-slate-300 relative overflow-hidden;
+  }
+  .ref-link {
+    @apply flex items-center gap-3 p-4 rounded-xl border border-slate-100 dark:border-slate-800 hover:border-primary/50 hover:bg-primary/5 transition-all;
+  }
+  
 }
 
 body {

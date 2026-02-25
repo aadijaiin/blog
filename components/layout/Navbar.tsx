@@ -1,4 +1,5 @@
 import ThemeBtn from "../ui/ThemeBtn";
+import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border-b border-slate-200/60 dark:border-slate-800">
@@ -12,18 +13,24 @@ const Navbar = () => {
           <a className="text-primary font-bold nav-link py-1" href="#">
             Home
           </a>
-          <a
+          <Link
             className="font-medium hover:text-primary transition-colors nav-link py-1"
-            href="#"
+            href="/blog"
+          >
+            Blog
+          </Link>
+          <Link
+            className="font-medium hover:text-primary transition-colors nav-link py-1"
+            href="/about"
           >
             About me
-          </a>
-          <a
+          </Link>
+          <Link
             className="px-6 py-2.5 border-2 border-slate-200 dark:border-slate-700 rounded-full hover:border-primary hover:text-primary font-semibold transition-all"
-            href="#"
+            href="/contact"
           >
             Contact Me
-          </a>
+          </Link>
           <ThemeBtn />
         </div>
       </div>
