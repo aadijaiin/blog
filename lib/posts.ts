@@ -2,127 +2,91 @@ export const posts =  [
     {
       id: 1,
       category: "Database",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 17, 2022",
+      title: "PostgreSQL Query Optimization: Indexing Strategies for Production",
+      excerpt: "Learn advanced indexing techniques and query analysis methods to dramatically improve database performance in production environments with real-world examples.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Sarah Chen",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100",
+      date: "Mar 15, 2024",
     },
     {
       id: 2,
       category: "AWS",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 19, 2022",
+      title: "Mastering AWS Lambda: Building Serverless Applications at Scale",
+      excerpt: "Deep dive into AWS Lambda architecture, cost optimization, and best practices for building production-grade serverless applications with enterprise reliability.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "James Mitchell",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      date: "Mar 12, 2024",
     },
     {
       id: 3,
       category: "Containers",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 19, 2022",
+      title: "Docker Best Practices: Security and Performance in Container Deployments",
+      excerpt: "Explore container security hardening, multi-stage builds, and optimization techniques to create lean, secure Docker images for modern applications.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Michael Rodriguez",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+      date: "Mar 10, 2024",
     },
     {
       id: 4,
       category: "Kubernetes",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 20, 2022",
+      title: "Kubernetes Networking: Understanding CNI Plugins and Service Mesh",
+      excerpt: "Comprehensive guide to Kubernetes networking protocols, custom CNI implementations, and how service meshes like Istio enhance cluster communication.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Emily Watson",
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      date: "Mar 08, 2024",
     },
     {
       id: 5,
       category: "DevOps",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 21, 2022",
+      title: "Infrastructure as Code: Terraform vs Pulumi for Cloud Automation",
+      excerpt: "Compare declarative and imperative IaC approaches, exploring when to use Terraform, Pulumi, and CloudFormation for managing complex cloud infrastructure.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "David Park",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      date: "Mar 05, 2024",
     },
     {
       id: 6,
       category: "CI/CD",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 22, 2022",
+      title: "GitHub Actions Advanced Workflows: Automating Complex Release Pipelines",
+      excerpt: "Master matrix builds, conditional steps, and custom actions to create sophisticated CI/CD pipelines that handle multi-environment deployments seamlessly.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Lisa Anderson",
+      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100",
+      date: "Mar 01, 2024",
     },
     {
       id: 7,
       category: "Microservices",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 23, 2022",
+      title: "Building Resilient Microservices: Circuit Breakers and Retry Patterns",
+      excerpt: "Design fault-tolerant microservice architectures using proven patterns like circuit breakers, bulkheads, and intelligent retry strategies for high availability.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Robert Kumar",
+      avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100",
+      date: "Feb 28, 2024",
     },
     {
       id: 8,
       category: "Monitoring",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 24, 2022",
+      title: "Observability at Scale: Implementing Distributed Tracing with Jaeger",
+      excerpt: "Understand the three pillars of observability and implement comprehensive distributed tracing using Jaeger, Prometheus, and Grafana for production systems.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Nicole Zhang",
+      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100",
+      date: "Feb 25, 2024",
     },
     {
       id: 9,
       category: "Cloud Architecture",
-      title:
-        "Lorem ipsum dolor sit amet, elit sed do eiusmod tempor incididunt",
-      excerpt:
-        "Korem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ...",
-      image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuB-H3MgJ7Qz2DwA2fTsq_O_MM0KFqJxF-mcXwJgMNU1NP-T3oq9gz3BjmhLK008Q9kGFRy3-VP5AhNs-IXjrEbX-t8wZZF1IO6-aWo5D0WUlQhjcifu_fV547dt0PAYGjdJbhO_ZKbSbLuQ6sqMugy6TXAJDuMd7qVJqzlHUf9VsoiyEE37QYbpoXFMBv-KViFdgK220ygoaRtNgqtTfui285F2hHYL_9Sto1HQcbBTXRlJXmzfmjwZRs7j0HtzcKRUzHJwfmDU_bSe",
-      author: "Tupac Shakur",
-      avatar:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAOaZAr_0-KFu-jySmDiAAaSL3uKbJesipEeLBrlYwakXHgAwVvybbjqjfCzS74QIDv8e-3XMr-MzCPIAhYY_LrV1UHFoSG4PGA5Viu3Wbxv77xs5qSHBELjCNDpYjJ_zgKBO2PgU9ZaVJ6BiC73AGXwo1VVi0Ce73e__XNM6q0T6-CFiJtlF9RB4dDfhsSVMGSyZiIyyAILC6eCfu6GDJfyL7nwcZuqgGfFhShaO7w9lepH0lQk9hyk7nQcy9hHQ7q3U5soUKyKi90",
-      date: "Jan 25, 2022",
+      title: "Multi-Cloud Strategy: Building Portable Applications Across AWS, GCP, and Azure",
+      excerpt: "Navigate vendor lock-in risks and design cloud-agnostic architectures that leverage the strengths of multiple cloud providers without sacrificing efficiency.",
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200",
+      author: "Thomas Brown",
+      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100",
+      date: "Feb 22, 2024",
     },
   ];

@@ -12,7 +12,8 @@ type Blog = {
   date: string;
 };
 
-const BlogList = ({ blogs }: { blogs: Blog[] }) => {
+const BlogList = ({ blogs, limit }: { blogs: Blog[]; limit?: number }) => {
+  const limitedBlogs = limit ? blogs.slice(0, limit) : blogs;
   return (
     <section className="max-w-7xl mx-auto">
       <div className="lg:col-span-8 space-y-10">
@@ -24,7 +25,7 @@ const BlogList = ({ blogs }: { blogs: Blog[] }) => {
         </header>
 
         <div className="space-y-8">
-          {blogs.map((blog) => (
+          {limitedBlogs.map((blog) => (
             <article
               key={blog.id}
               className="bg-white dark:bg-slate-800/40 rounded-[2.5rem] p-8 flex flex-col md:flex-row gap-8 border border-slate-100 dark:border-slate-800/50 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 group"

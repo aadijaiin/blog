@@ -8,7 +8,7 @@ export default function Home() {
       <Hero />
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start mt-16">
         <div className="lg:col-span-8">
-          <BlogList blogs={posts} />
+          <BlogList blogs={posts} limit={4} />
         </div>
         <SideBar />
       </section>
